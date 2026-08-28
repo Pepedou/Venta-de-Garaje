@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="es-MX">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Venta de Garaje en Narvarte Oriente, CDMX." />
+    <title>Venta de Garaje · CDMX</title>
+    <link rel="stylesheet" href="assets/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Venta de Garaje, inicio">
+        <span class="brand-mark">VG</span><span>Venta de Garaje</span>
+      </a>
+      <nav aria-label="Navegación principal">
+        <a href="#items" data-i18n="navItems">Artículos</a>
+        <a href="#how" data-i18n="navHow">Entrega</a>
+        <a class="nav-contact" href="#contact" data-i18n="navContact">Contactar</a>
+      </nav>
+      <div class="header-actions"><button class="cart-button" id="cart-button" type="button"><span data-i18n="cart">Mi selección</span><b id="cart-count">0</b></button><button class="language-toggle" id="language-toggle" type="button" aria-label="Switch language">EN</button></div>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow" data-i18n="eyebrow">NARVARTE ORIENTE · CDMX</p>
+          <h1 data-i18n="heroTitle">Hallazgos para darle una nueva vida.</h1>
+          <p class="hero-text" data-i18n="heroText">Artículos de casa, seleccionados y listos para recoger. Algunos tienen precio; en otros puedes hacer una oferta.</p>
+          <a class="button button-primary" href="#items" data-i18n="browse">Ver artículos</a>
+        </div>
+        <div class="hero-art" aria-hidden="true">
+          <span class="burst burst-one"></span><span class="burst burst-two"></span><span class="star star-one">✦</span><span class="star star-two">✦</span>
+          <div class="hero-card"><span>V</span><span>G</span><small>cosas buenas<br>buscando casa</small></div>
+        </div>
+      </section>
+
+      <section class="catalog-section" id="items">
+        <div class="section-heading">
+          <div><p class="eyebrow" data-i18n="catalogEyebrow">CATÁLOGO</p><h2 data-i18n="catalogTitle">Disponible ahora</h2></div>
+          <div class="filters" role="group" aria-label="Filtros de catálogo">
+            <button class="filter is-active" data-filter="available" type="button" data-i18n="filterAvailable">Disponibles</button>
+            <button class="filter" data-filter="all" type="button" data-i18n="filterAll">Todos</button>
+          </div>
+        </div>
+        <div id="item-grid" class="item-grid" aria-live="polite"></div>
+        <p id="empty-state" class="empty-state" hidden></p>
+      </section>
+
+      <section class="how-section" id="how">
+        <p class="eyebrow" data-i18n="howEyebrow">¿CÓMO RECIBIRLO?</p>
+        <div class="how-grid">
+          <article><span class="number">01</span><h2 data-i18n="pickupTitle">Recoge en Narvarte</h2><p data-i18n="pickupText">Coordinamos un horario en Narvarte Oriente, CDMX.</p></article>
+          <article><span class="number">02</span><h2 data-i18n="driveTitle">Entrega cercana</h2><p data-i18n="driveText">Puedo llevarlo si estás cerca. Pregunta al hacer tu consulta.</p></article>
+          <article><span class="number">03</span><h2 data-i18n="uberTitle">Uber Delivery</h2><p data-i18n="uberText">También podemos coordinar Uber Delivery, según los artículos y si cubres el envío.</p></article>
+        </div>
+      </section>
+
+      <section class="contact-section" id="contact">
+        <div class="contact-copy"><p class="eyebrow" data-i18n="contactEyebrow">¿TE INTERESA ALGO?</p><h2 data-i18n="contactTitle">Haz tu selección.</h2><p data-i18n="contactText">Agrega los artículos que te gusten. Cuando termines, envíame tu selección completa por WhatsApp o correo.</p></div>
+        <div class="cart-callout"><span class="cart-spark">✦</span><p data-i18n="cartCallout">Tu lista se prepara automáticamente.</p><button class="button button-primary" type="button" data-open-cart data-i18n="openCart">Ver mi selección</button></div>
+      </section>
+    </main>
+    <footer><span>© <span id="year"></span> Venta de Garaje</span><a href="admin.html">Editor privado</a></footer>
+    <dialog id="image-dialog" class="image-dialog"><button class="dialog-close" type="button" aria-label="Cerrar">×</button><img alt="" /></dialog>
+    <dialog id="offer-dialog" class="offer-dialog"><form id="offer-form" method="dialog"><button class="dialog-close" type="button" data-close-offer aria-label="Cerrar">×</button><p class="eyebrow" data-i18n="offerEyebrow">HAZ UNA OFERTA</p><h2 id="offer-title"></h2><label><span data-i18n="offerLabel">Tu oferta en MXN</span><input id="offer-amount" type="number" inputmode="numeric" min="1" required placeholder="$ 0" /></label><button class="button button-primary" type="submit" data-i18n="addOffer">Agregar a mi selección</button></form></dialog>
+    <aside id="cart-panel" class="cart-panel" aria-label="Tu selección" aria-hidden="true"><div class="cart-panel-inner"><div class="cart-heading"><div><p class="eyebrow" data-i18n="cartEyebrow">TU SELECCIÓN</p><h2 data-i18n="cartTitle">Casi listo.</h2></div><button id="close-cart" class="close-cart" type="button">×</button></div><div id="cart-items" class="cart-items"></div><div id="cart-empty" class="cart-empty" data-i18n="cartEmpty">Aún no agregas artículos.</div><form id="cart-form" class="cart-form"><label><span data-i18n="formName">Tu nombre</span><input required name="name" autocomplete="name" /></label><label><span data-i18n="formContact">Tu contacto</span><input required name="contact" placeholder="WhatsApp o correo" /></label><p class="form-note" data-i18n="cartNote">Enviaremos la lista exacta de artículos y ofertas.</p><button class="button button-primary" type="submit" data-channel="whatsapp" data-i18n="sendWhatsApp">Enviar por WhatsApp</button><button id="email-link" class="button button-secondary" type="submit" data-channel="email" data-i18n="sendEmail">Enviar por correo</button></form></div></aside><div id="cart-backdrop" class="cart-backdrop"></div>
+    <script src="data/items.js"></script>
+    <script src="assets/app.js"></script>
+  </body>
+</html>

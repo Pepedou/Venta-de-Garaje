@@ -1,0 +1,20 @@
+[
+  {
+    "id": "example-lamp",
+    "title": { "es": "Lámpara de mesa", "en": "Table lamp" },
+    "description": { "es": "Ejemplo de artículo. Reemplázalo o elimínalo desde el Editor privado.", "en": "Sample item. Replace or remove it in the Private editor." },
+    "priceType": "price",
+    "price": 650,
+    "images": [],
+    "sold": false
+  },
+  {
+    "id": "example-chair",
+    "title": { "es": "Silla vintage", "en": "Vintage chair" },
+    "description": { "es": "Ejemplo de artículo disponible para oferta.", "en": "Sample item open to offers." },
+    "priceType": "offer",
+    "price": null,
+    "images": [],
+    "sold": false
+  }
+]
