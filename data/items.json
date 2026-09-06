@@ -103,5 +103,12 @@
     "description": { "es": "Torre para gato en tonos verde y café, con casita, plataformas acolchadas, postes para rascar y juguete colgante. Revisa las fotos reales para ver el artículo.", "en": "Green and brown cat tower with a hideaway condo, padded platforms, scratching posts and hanging toy. Please review the real photos for the item." },
     "priceType": "price", "price": 500,
     "images": ["assets/items/cat-tree-cactus-catalog.webp", "assets/items/cat-tree-cactus-original-1.webp", "assets/items/cat-tree-cactus-original-2.webp"], "sold": false
+  },
+  {
+    "id": "thursday-brown-leather-boots",
+    "title": { "es": "Botas Thursday de piel café — talla US 9½", "en": "Brown leather Thursday boots — US size 9½" },
+    "description": { "es": "Botas Thursday de piel café con construcción tipo moc toe, suela Vibram clara y agujetas oscuras. Talla US 9½. Incluyen su caja original; revisa las fotos de la talla, suela y estado.", "en": "Brown leather Thursday boots with moc-toe construction, light Vibram outsole and dark laces. US size 9½. Includes original box; please review the size, sole and condition photos." },
+    "priceType": "price", "price": 3500,
+    "images": ["assets/items/thursday-brown-boots-catalog.webp", "assets/items/thursday-brown-boots-original-1.webp", "assets/items/thursday-brown-boots-original-2.webp", "assets/items/thursday-brown-boots-original-3.webp", "assets/items/thursday-brown-boots-original-4.webp", "assets/items/thursday-brown-boots-original-5.webp", "assets/items/thursday-brown-boots-original-6.webp", "assets/items/thursday-brown-boots-original-7.webp"], "sold": false
   }
 ]
