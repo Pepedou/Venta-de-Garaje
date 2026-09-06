@@ -27,7 +27,7 @@ window.VENTA_ITEMS = [
     "id": "damaged-full-length-mirror",
     "title": { "es": "Espejo de cuerpo completo — vidrio dañado", "en": "Full-length mirror — damaged glass" },
     "description": { "es": "Marco de madera con espejo de cuerpo completo. El vidrio está roto y asegurado con cinta; se vende tal cual. Revisa la foto cuidadosamente.", "en": "Wooden full-length mirror. The glass is broken and secured with tape; sold as-is. Please review the photo carefully." },
-    "priceType": "price", "price": 1500, "images": ["assets/items/damaged-mirror-catalog.webp", "assets/items/damaged-mirror-original-1.webp"], "sold": false
+    "priceType": "price", "price": 1500, "images": ["assets/items/damaged-mirror-catalog.webp", "assets/items/damaged-mirror-original-1.webp"], "sold": true
   },
   {
     "id": "hamilton-beach-slow-cooker",
