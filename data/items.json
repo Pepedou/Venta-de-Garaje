@@ -96,5 +96,12 @@
     "description": { "es": "Bicicleta fija Sunny Health & Fitness gris y roja, con consola, controles de resistencia y pedales con correa.", "en": "Gray and red Sunny Health & Fitness stationary bike with console, resistance controls and strapped pedals." },
     "priceType": "price", "price": 2500,
     "images": ["assets/items/sunny-exercise-bike-catalog.webp", "assets/items/sunny-exercise-bike-original-1.webp", "assets/items/sunny-exercise-bike-original-2.webp"], "sold": false
+  },
+  {
+    "id": "cactus-cat-tree",
+    "title": { "es": "Rascador para gato estilo cactus", "en": "Cactus-style cat tree" },
+    "description": { "es": "Torre para gato en tonos verde y café, con casita, plataformas acolchadas, postes para rascar y juguete colgante. Revisa las fotos reales para ver el artículo.", "en": "Green and brown cat tower with a hideaway condo, padded platforms, scratching posts and hanging toy. Please review the real photos for the item." },
+    "priceType": "price", "price": 500,
+    "images": ["assets/items/cat-tree-cactus-catalog.webp", "assets/items/cat-tree-cactus-original-1.webp", "assets/items/cat-tree-cactus-original-2.webp"], "sold": false
   }
 ]
