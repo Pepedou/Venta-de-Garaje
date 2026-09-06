@@ -3,13 +3,13 @@ window.VENTA_ITEMS = [
     "id": "ceramic-bottle-set",
     "title": { "es": "Set de cerámica: botella y dos vasos", "en": "Ceramic bottle and two-cup set" },
     "description": { "es": "Botella con tapón de corcho y dos vasos a juego, en cerámica crema con diseño marmoleado azul marino y terracota.", "en": "Cork-stopper bottle and two matching cups in cream ceramic with navy and terracotta marbled detail." },
-    "priceType": "price", "price": 500, "images": ["assets/items/ceramic-set-catalog.webp", "assets/items/ceramic-set-original-1.webp", "assets/items/ceramic-set-original-2.webp"], "sold": false
+    "priceType": "price", "price": 500, "images": ["assets/items/ceramic-set-catalog.webp", "assets/items/ceramic-set-original-1.webp", "assets/items/ceramic-set-original-2.webp"], "sold": true
   },
   {
     "id": "black-pink-moto-jacket",
     "title": { "es": "Chamarra de moto negra y rosa", "en": "Black and pink motorcycle jacket" },
     "description": { "es": "Chamarra textil negra con paneles rosa y detalles reflejantes. La etiqueta indica talla WSM; revisa las fotos.", "en": "Black textile jacket with pink panels and reflective details. Label indicates size WSM; please review the photos." },
-    "priceType": "price", "price": 800, "images": ["assets/items/moto-jacket-catalog.webp", "assets/items/moto-jacket-original-1.webp", "assets/items/moto-jacket-original-2.webp", "assets/items/moto-jacket-original-3.webp"], "sold": false
+    "priceType": "price", "price": 800, "images": ["assets/items/moto-jacket-catalog.webp", "assets/items/moto-jacket-original-1-clean.webp", "assets/items/moto-jacket-original-2.webp", "assets/items/moto-jacket-original-3.webp"], "sold": false
   },
   {
     "id": "wired-keyboard-dial",
