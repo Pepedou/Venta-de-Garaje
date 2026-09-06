@@ -33,13 +33,13 @@ window.VENTA_ITEMS = [
     "id": "hamilton-beach-slow-cooker",
     "title": { "es": "Olla lenta Hamilton Beach", "en": "Hamilton Beach slow cooker" },
     "description": { "es": "Olla lenta ovalada Hamilton Beach con tapa de vidrio, inserto cerámico removible y panel digital con temporizador.", "en": "Hamilton Beach oval slow cooker with glass lid, removable ceramic insert and digital timer panel." },
-    "priceType": "price", "price": 700, "images": ["assets/items/hamilton-slow-cooker-catalog.webp", "assets/items/hamilton-slow-cooker-original-1.webp", "assets/items/hamilton-slow-cooker-original-2.webp"], "sold": false
+    "priceType": "price", "price": 700, "images": ["assets/items/hamilton-slow-cooker-catalog.webp", "assets/items/hamilton-slow-cooker-original-1.webp", "assets/items/hamilton-slow-cooker-original-2.webp"], "sold": true
   },
   {
     "id": "compact-rice-cooker",
     "title": { "es": "Arrocera compacta", "en": "Compact rice cooker" },
     "description": { "es": "Arrocera compacta blanca y negra con tapa de vidrio, cable y funciones Cook/Warm.", "en": "Compact white and black rice cooker with glass lid, power cord and Cook/Warm functions." },
-    "priceType": "price", "price": 250, "images": ["assets/items/rice-cooker-catalog.webp", "assets/items/rice-cooker-original-1.webp"], "sold": false
+    "priceType": "price", "price": 250, "images": ["assets/items/rice-cooker-catalog.webp", "assets/items/rice-cooker-original-1.webp"], "sold": true
   },
   {
     "id": "folding-wood-bistro-set",
@@ -57,7 +57,7 @@ window.VENTA_ITEMS = [
     "id": "black-acapulco-chair",
     "title": { "es": "Silla Acapulco negra", "en": "Black Acapulco chair" },
     "description": { "es": "Silla estilo Acapulco negra, con estructura metálica y tejido de cordón negro.", "en": "Black Acapulco-style chair with metal frame and black woven cord seat." },
-    "priceType": "price", "price": 450, "images": ["assets/items/black-acapulco-chair-catalog.webp", "assets/items/black-acapulco-chair-original-1.webp"], "sold": false
+    "priceType": "price", "price": 450, "images": ["assets/items/black-acapulco-chair-catalog.webp", "assets/items/black-acapulco-chair-original-1.webp"], "sold": true
   },
   {
     "id": "black-reclining-loveseat",
