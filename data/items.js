@@ -69,7 +69,7 @@ window.VENTA_ITEMS = [
     "id": "papasan-chair-gray-cushion",
     "title": { "es": "Silla papasan con cojín gris", "en": "Papasan chair with gray cushion" },
     "description": { "es": "Silla grande tipo papasan con estructura de ratán, base de metal negra, cojín gris acolchado y cojín decorativo incluido.", "en": "Large papasan-style chair with rattan frame, black metal base, padded gray cushion and included decorative pillow." },
-    "priceType": "price", "price": 850, "images": ["assets/items/papasan-chair-catalog.webp", "assets/items/papasan-chair-original-1.webp", "assets/items/papasan-chair-original-2.webp"], "sold": false
+    "priceType": "price", "price": 850, "images": ["assets/items/papasan-chair-catalog.webp", "assets/items/papasan-chair-original-1.webp", "assets/items/papasan-chair-original-2.webp"], "sold": true
   },
   {
     "id": "outdoor-wood-bench",
