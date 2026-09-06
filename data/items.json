@@ -124,5 +124,12 @@
     "description": { "es": "Cerradura electrónica negra mate con teclado y llave física. Nuevas, sin usar. Hay 2 disponibles; el precio es por unidad. La segunda imagen es una referencia del modelo.", "en": "Matte black electronic deadbolt with keypad and physical key. New and unused. Two are available; price is per unit. The second image is a model reference." },
     "priceType": "price", "price": 750,
     "images": ["assets/items/amazon-basics-electronic-deadbolt-catalog.webp", "assets/items/amazon-basics-electronic-deadbolt-reference.webp"], "sold": false
+  },
+  {
+    "id": "samsung-white-curved-monitor",
+    "title": { "es": "Monitor curvo Samsung blanco", "en": "White Samsung curved monitor" },
+    "description": { "es": "Monitor curvo Samsung blanco con pantalla negra y base circular. Incluye su soporte; revisa las fotos reales del frente y de la parte trasera con conexiones.", "en": "White Samsung curved monitor with black screen and round base. Includes its stand; please review the real front and rear photos with connections." },
+    "priceType": "price", "price": 850,
+    "images": ["assets/items/samsung-white-curved-monitor-catalog.webp", "assets/items/samsung-white-curved-monitor-original-1.webp", "assets/items/samsung-white-curved-monitor-original-2.webp"], "sold": false
   }
 ]
