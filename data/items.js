@@ -21,7 +21,7 @@ window.VENTA_ITEMS = [
     "id": "red-giant-bike",
     "title": { "es": "Bicicleta Giant roja", "en": "Red Giant bicycle" },
     "description": { "es": "Bicicleta roja Giant con manubrio recto, cambios y salpicaderas. Pregunta por detalles o para verla en persona.", "en": "Red Giant bicycle with flat handlebar, gears and fenders. Ask for details or to see it in person." },
-    "priceType": "price", "price": 4000, "images": ["assets/items/red-bike-catalog.webp", "assets/items/red-bike-original-1.webp"], "sold": false
+    "priceType": "price", "price": 4000, "images": ["assets/items/red-bike-catalog.webp", "assets/items/red-bike-original-1.webp"], "sold": true
   },
   {
     "id": "damaged-full-length-mirror",
