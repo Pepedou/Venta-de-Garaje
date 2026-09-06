@@ -94,5 +94,11 @@ window.VENTA_ITEMS = [
     "title": { "es": "Botas Thursday de piel café — talla US 9½", "en": "Brown leather Thursday boots — US size 9½" },
     "description": { "es": "Botas Thursday de piel café con construcción tipo moc toe, suela Vibram clara y agujetas oscuras. Talla US 9½. Incluyen su caja original; revisa las fotos de la talla, suela y estado.", "en": "Brown leather Thursday boots with moc-toe construction, light Vibram outsole and dark laces. US size 9½. Includes original box; please review the size, sole and condition photos." },
     "priceType": "price", "price": 3500, "images": ["assets/items/thursday-brown-boots-catalog.webp", "assets/items/thursday-brown-boots-original-1.webp", "assets/items/thursday-brown-boots-original-2.webp", "assets/items/thursday-brown-boots-original-3.webp", "assets/items/thursday-brown-boots-original-4.webp", "assets/items/thursday-brown-boots-original-5.webp", "assets/items/thursday-brown-boots-original-6.webp", "assets/items/thursday-brown-boots-original-7.webp"], "sold": false
+  },
+  {
+    "id": "acacia-outdoor-deck-tiles",
+    "title": { "es": "Piso modular de acacia para exterior (10 piezas)", "en": "Acacia outdoor modular deck tiles (10 pieces)" },
+    "description": { "es": "Set de 10 cuadros de madera de acacia color natural para jardín, balcón o terraza. Cada cuadro mide 31 × 31 cm; cubren aproximadamente 0.93 m². Revisa las fotos reales de las piezas y la caja.", "en": "Set of 10 natural acacia-wood deck tiles for a garden, balcony or patio. Each tile measures 31 × 31 cm and the set covers about 0.93 m². Please review the real photos of the tiles and box." },
+    "priceType": "price", "price": 500, "images": ["assets/items/acacia-deck-tiles-catalog.webp", "assets/items/acacia-deck-tiles-original-1.webp", "assets/items/acacia-deck-tiles-original-2.webp", "assets/items/acacia-deck-tiles-original-3.webp"], "sold": false
   }
 ];
